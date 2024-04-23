@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button } from 'react-bootstrap';
+import { Button, Container } from 'react-bootstrap';
 
 function SidebarMenu() {
   const [selectedItem, setSelectedItem] = useState(null);
@@ -9,7 +9,7 @@ function SidebarMenu() {
   };
 
   return (
-    <div className="sidebar-menu d-flex flex-column gap-2">
+    <Container className="d-flex flex-column gap-2">
       <Button
         variant={selectedItem === 'sobre-mi' ? "secondary" : "outline-secondary"}
         size="sm"
@@ -31,7 +31,7 @@ function SidebarMenu() {
       >
         Mis estudios
       </Button>
-    </div>
+    </Container>
   );
 }
 

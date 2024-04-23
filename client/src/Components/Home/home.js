@@ -5,15 +5,17 @@ import SidebarMenu from '../SidebarMenu/sideBarMenu';
 export default function Home() {
 
     return(
-        <Container>
-            <Row>
-                <Col sm={3}>
-                    <SidebarMenu />
-                </Col>
-                <Col sm={9}>
-                    <p>Home</p>
-                </Col>
-            </Row>
-        </Container>
+        <div className="bg-dark" style={{ height: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <Container>
+                <Row>
+                    <Col sm={3}>
+                        <SidebarMenu />
+                    </Col>
+                    <Col sm={9}>
+                        <p>Home</p>
+                    </Col>
+                </Row>
+            </Container>
+        </div>
     )
 }
