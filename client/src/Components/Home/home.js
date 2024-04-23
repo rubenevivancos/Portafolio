@@ -1,4 +1,5 @@
-import { Container, Row, Col, Nav } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
+import SidebarMenu from '../SidebarMenu/sideBarMenu';
 
 
 export default function Home() {
@@ -7,14 +8,10 @@ export default function Home() {
         <Container>
             <Row>
                 <Col sm={3}>
-                    <Nav className="flex-column">
-                        <Nav.Link href="#sobre-mi">Sobre mí</Nav.Link>
-                        <Nav.Link href="#mis-proyectos">Mis proyectos</Nav.Link>
-                        <Nav.Link href="#mis-estudios">Mis estudios</Nav.Link>
-                    </Nav>
+                    <SidebarMenu />
                 </Col>
                 <Col sm={9}>
-                    {/* Contenido de la página */}
+                    <p>Home</p>
                 </Col>
             </Row>
         </Container>
