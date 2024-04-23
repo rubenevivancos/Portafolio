@@ -11,21 +11,21 @@ function SidebarMenu() {
   return (
     <Container className="d-flex flex-column gap-2">
       <Button
-        variant={selectedItem === 'sobre-mi' ? "secondary" : "outline-secondary"}
+        variant={selectedItem === 'sobre-mi' ? "primary" : "outline-secondary"}
         size="sm"
         onClick={() => handleItemClick('sobre-mi')}
       >
         Sobre mí
       </Button>
       <Button
-        variant={selectedItem === 'mis-proyectos' ? "secondary" : "outline-secondary"}
+        variant={selectedItem === 'mis-proyectos' ? "danger" : "outline-secondary"}
         size="sm"
         onClick={() => handleItemClick('mis-proyectos')}
       >
         Mis proyectos
       </Button>
       <Button
-        variant={selectedItem === 'mis-estudios' ? "secondary" : "outline-secondary"}
+        variant={selectedItem === 'mis-estudios' ? "success" : "outline-secondary"}
         size="sm"
         onClick={() => handleItemClick('mis-estudios')}
       >
