@@ -11,25 +11,46 @@ function SidebarMenu() {
   return (
     <Container className="d-flex flex-column gap-2">
       <Button
-        variant={selectedItem === 'sobre-mi' ? "primary" : "outline-secondary"}
+        variant={selectedItem === 'sobreMi' ? "primary" : "outline-secondary"}
         size="sm"
-        onClick={() => handleItemClick('sobre-mi')}
+        onClick={() => handleItemClick('sobreMi')}
       >
         Sobre mí
       </Button>
       <Button
-        variant={selectedItem === 'mis-proyectos' ? "danger" : "outline-secondary"}
+        variant={selectedItem === 'proyectos' ? "secondary" : "outline-secondary"}
         size="sm"
-        onClick={() => handleItemClick('mis-proyectos')}
+        onClick={() => handleItemClick('proyectos')}
       >
-        Mis proyectos
+        Proyectos
       </Button>
       <Button
-        variant={selectedItem === 'mis-estudios' ? "success" : "outline-secondary"}
+        variant={selectedItem === 'experiencia' ? "success" : "outline-secondary"}
         size="sm"
-        onClick={() => handleItemClick('mis-estudios')}
+        onClick={() => handleItemClick('experiencia')}
       >
-        Mis estudios
+        Experiencia
+      </Button>
+      <Button
+        variant={selectedItem === 'habilidades' ? "danger" : "outline-secondary"}
+        size="sm"
+        onClick={() => handleItemClick('habilidades')}
+      >
+        Habilidades
+      </Button>
+      <Button
+        variant={selectedItem === 'cv' ? "warning" : "outline-secondary"}
+        size="sm"
+        onClick={() => handleItemClick('cv')}
+      >
+        Curriculum
+      </Button>
+      <Button
+        variant={selectedItem === 'contacto' ? "info" : "outline-secondary"}
+        size="sm"
+        onClick={() => handleItemClick('contacto')}
+      >
+        Contacto
       </Button>
     </Container>
   );

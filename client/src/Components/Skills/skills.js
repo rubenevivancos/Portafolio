@@ -12,7 +12,7 @@ export default function Home() {
                         <SidebarMenu />
                     </Col>
                     <Col sm={9}>
-                        <p style={{color: 'white'}}>Home</p>
+                        <p style={{color: 'white'}}>Habilidades</p>
                     </Col>
                 </Row>
             </Container>
