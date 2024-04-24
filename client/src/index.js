@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
+import { SelectedItemProvider } from './Context/context';
 
 //Se importa Bootstrap para todas las paginas
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -12,6 +13,8 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 // Renderiza el componente en el root
 root.render(
   <React.StrictMode>
-      <App />
+      <SelectedItemProvider>
+        <App />
+      </SelectedItemProvider>
   </React.StrictMode>
 );
