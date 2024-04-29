@@ -42,13 +42,6 @@ function SidebarMenu() {
         Sobre mí
       </Button>
       <Button
-        variant={selectedItem === 'projects' ? "secondary" : "outline-secondary"}
-        size="sm"
-        onClick={() => handleItemClick('projects')}
-      >
-        Proyectos
-      </Button>
-      <Button
         variant={selectedItem === 'experience' ? "success" : "outline-secondary"}
         size="sm"
         onClick={() => handleItemClick('experience')}
@@ -61,6 +54,13 @@ function SidebarMenu() {
         onClick={() => handleItemClick('skills')}
       >
         Habilidades
+      </Button>
+      <Button
+        variant={selectedItem === 'projects' ? "secondary" : "outline-secondary"}
+        size="sm"
+        onClick={() => handleItemClick('projects')}
+      >
+        Proyectos
       </Button>
       <Button
         variant={selectedItem === 'resume' ? "warning" : "outline-secondary"}
