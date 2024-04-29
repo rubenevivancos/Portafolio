@@ -8,7 +8,7 @@ export default function Home() {
         <div className="bg-dark" style={{ height: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <Container>
                 <Row>
-                    <Col sm={3}>
+                    <Col sm={3} className="d-flex align-items-center">
                         <SideBarMenu />
                     </Col>
                     <Col sm={9}>
