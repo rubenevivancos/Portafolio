@@ -17,7 +17,7 @@ export default function Home() {
                                 Sobre mí
                             </h1>
                         </div>
-                        <p className="text-white">El resto del contenido va aquí y se alinea a la izquierda..</p>
+                        <p className="text-white">El resto del contenido va aquí y se alinea a la izquierda.</p>
                     </Col>
                 </Row>
             </Container>

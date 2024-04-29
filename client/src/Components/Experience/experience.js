@@ -12,7 +12,12 @@ export default function Home() {
                         <SideBarMenu />
                     </Col>
                     <Col sm={9}>
-                        <p style={{color: 'white'}}>Experiencia</p>
+                        <div className="d-flex justify-content-end">
+                            <h1 className="bg-success text-white px-5 py-1 rounded w-50 text-end">
+                                Experiencia
+                            </h1>
+                        </div>
+                        <p className="text-white">El resto del contenido va aquí y se alinea a la izquierda.</p>
                     </Col>
                 </Row>
             </Container>
