@@ -14,7 +14,7 @@ function SidebarMenu() {
 
   const handleItemClick = (itemName) => {
     setSelectedItem(itemName);
-    // Establecer el estado del botón como true cuando se presiona el botón
+    // Establecer el estado del botón como true cuando se presiona el botón.
     setButtonClicked(true);
   };
 
