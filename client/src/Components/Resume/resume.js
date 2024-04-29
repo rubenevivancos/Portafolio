@@ -1,5 +1,5 @@
 import { Container, Row, Col } from 'react-bootstrap';
-import SidebarMenu from '../SidebarMenu/sideBarMenu';
+import SideBarMenu from '../SideBarMenu/sideBarMenu';
 
 
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
             <Container>
                 <Row>
                     <Col sm={3}>
-                        <SidebarMenu />
+                        <SideBarMenu />
                     </Col>
                     <Col sm={9}>
                         <p style={{color: 'white'}}>Curriculum</p>
