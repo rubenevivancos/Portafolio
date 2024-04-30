@@ -29,6 +29,7 @@ export default function Home() {
                                             <span>Programador Web</span><span className="ms-4">Lima-Perú (Presencial)</span>
                                         </Card.Text>
                                     </Card.Body>
+                                    <div className="border-bottom border-2 border-success w-75 "></div>
                                 </Card>
                                 <Card className="mb-4 bg-dark text-white border-0">
                                     <Card.Body>
@@ -40,6 +41,7 @@ export default function Home() {
                                             <span>Programador Web</span><span className="ms-4">Lima-Perú (Presencial)</span>
                                         </Card.Text>
                                     </Card.Body>
+                                    <div className="border-bottom border-2 border-success w-75 "></div>
                                 </Card>
                                 <Card className="bg-dark text-white border-0">
                                     <Card.Body>
@@ -51,6 +53,7 @@ export default function Home() {
                                             <span>Programador Web</span><span className="ms-4">Lima-Perú (Presencial)</span>
                                         </Card.Text>
                                     </Card.Body>
+                                    <div className="border-bottom border-2 border-success w-75 "></div>
                                 </Card>
                             </div>
                         </div>
