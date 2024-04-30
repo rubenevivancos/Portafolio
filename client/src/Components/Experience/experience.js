@@ -17,7 +17,26 @@ export default function Home() {
                                 Experiencia
                             </h1>
                         </div>
-                        <p className="text-white">El resto del contenido va aquí y se alinea a la izquierda.</p>
+                        <div className="align-items-center text-white px-5 py-5">
+                            <div> {/* Aquí agregamos una clase para espaciar verticalmente */}
+                                <p>
+                                    PM SERVICES - NKE ASOCIADOS SAC     abr. 2015 - nov. 2018
+                                    Programador  Lima-Perú (Presencial)
+                                </p>
+                            </div>
+                            <div> {/* Aquí agregamos una clase para espaciar verticalmente */}
+                                <p>
+                                    NOVATRONIC     dic. 2013 - ago. 2014
+                                    Programador Lima-Perú (Presencial)
+                                </p>
+                            </div>
+                            <div>
+                                <p>
+                                    ALIGNET     ene. 2008 - jun. 2013
+                                    Programador Lima-Perú
+                                </p>
+                            </div>
+                        </div>
                     </Col>
                 </Row>
             </Container>
