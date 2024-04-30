@@ -1,4 +1,4 @@
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Card } from 'react-bootstrap';
 import SideBarMenu from '../SideBarMenu/sideBarMenu';
 
 
@@ -17,24 +17,41 @@ export default function Home() {
                                 Experiencia
                             </h1>
                         </div>
-                        <div className="align-items-center text-white px-5 py-5">
-                            <div> {/* Aquí agregamos una clase para espaciar verticalmente */}
-                                <p>
-                                    PM SERVICES - NKE ASOCIADOS SAC     abr. 2015 - nov. 2018
-                                    Programador  Lima-Perú (Presencial)
-                                </p>
-                            </div>
-                            <div> {/* Aquí agregamos una clase para espaciar verticalmente */}
-                                <p>
-                                    NOVATRONIC     dic. 2013 - ago. 2014
-                                    Programador Lima-Perú (Presencial)
-                                </p>
-                            </div>
-                            <div>
-                                <p>
-                                    ALIGNET     ene. 2008 - jun. 2013
-                                    Programador Lima-Perú
-                                </p>
+                        <div className="mt-5 d-flex justify-content-center">
+                            <div className="w-75">
+                                <Card className="mb-4 bg-dark text-white border-0">
+                                    <Card.Body>
+                                        <Card.Title className="d-flex justify-content-between">
+                                            <span>PM SERVICES - NKE ASOCIADOS SAC</span>
+                                            <span className="text-end">abr. 2015 - nov. 2018</span>
+                                        </Card.Title>
+                                        <Card.Text>
+                                            <span>Programador Web</span><span className="ms-4">Lima-Perú (Presencial)</span>
+                                        </Card.Text>
+                                    </Card.Body>
+                                </Card>
+                                <Card className="mb-4 bg-dark text-white border-0">
+                                    <Card.Body>
+                                        <Card.Title className="d-flex justify-content-between">
+                                            <span>NOVATRONIC</span>
+                                            <span className="text-end">dic. 2013 - ago. 2014</span>
+                                        </Card.Title>
+                                        <Card.Text>
+                                            <span>Programador Web</span><span className="ms-4">Lima-Perú (Presencial)</span>
+                                        </Card.Text>
+                                    </Card.Body>
+                                </Card>
+                                <Card className="bg-dark text-white border-0">
+                                    <Card.Body>
+                                        <Card.Title className="d-flex justify-content-between">
+                                            <span>ALIGNET</span>
+                                            <span className="text-end">ene. 2008 - jun. 2013</span>
+                                        </Card.Title>
+                                        <Card.Text>
+                                            <span>Programador Web</span><span className="ms-4">Lima-Perú (Presencial)</span>
+                                        </Card.Text>
+                                    </Card.Body>
+                                </Card>
                             </div>
                         </div>
                     </Col>
