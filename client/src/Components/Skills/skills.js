@@ -1,7 +1,9 @@
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Image } from 'react-bootstrap';
 import { BsCheck } from 'react-icons/bs'; 
 
 import SideBarMenu from '../SideBarMenu/sideBarMenu';
+import reactBootstrap from '../../Images/react-bootstrap.png';
+import bootstrap from '../../Images/bootstrap.png';
 
 
 export default function Home() {
@@ -23,8 +25,12 @@ export default function Home() {
                             <div className="w-75">
                                 <Row>
                                     <Col className="text-white">
-                                        <p className="mb-2 d-flex justify-content-center">React-Bootstrap <span className="text-danger"><BsCheck /></span></p>
-                                        <p className="mb-2 d-flex justify-content-center">Bootstrap <span className="text-danger"><BsCheck /></span></p>
+                                        <p className="mb-2 d-flex justify-content-center align-items-center">
+                                            <Image src={reactBootstrap} className="me-2" width="16" height="16"/>React-Bootstrap <span className="text-danger"><BsCheck /></span>
+                                        </p>
+                                        <p className="mb-2 d-flex justify-content-center  align-items-center">
+                                            <Image src={bootstrap} className="me-2" width="16" height="16"/>Bootstrap <span className="text-danger"><BsCheck /></span>
+                                        </p>
                                         <p className="mb-2 d-flex justify-content-center">React <span className="text-danger"><BsCheck /></span></p>
                                         <p className="mb-2 d-flex justify-content-center">Redux-Toolkit <span className="text-danger"><BsCheck /></span></p>
                                     </Col>
