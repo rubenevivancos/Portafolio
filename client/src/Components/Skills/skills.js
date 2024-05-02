@@ -10,6 +10,8 @@ import node from '../../Images/node.png';
 import express from '../../Images/express.png';
 import sequelize from '../../Images/sequelize.png';
 import postgreSQL from '../../Images/postgresql.png';
+import git from '../../Images/git.png';
+import gitHub from '../../Images/gitHub.png';
 
 
 export default function Home() {
@@ -56,6 +58,12 @@ export default function Home() {
                                         </p>
                                         <p className="mb-4">
                                             <Image src={postgreSQL} className="me-2" width="48" height="48"/>PostgreSQL <span className="text-danger"><BsCheck /></span>
+                                        </p>
+                                        <p className="mb-4">
+                                            <Image src={git} className="me-2" width="48" height="48"/>Git <span className="text-danger"><BsCheck /></span>
+                                        </p>
+                                        <p className="mb-4">
+                                            <Image src={gitHub} className="me-2" width="48" height="48"/>GitHub <span className="text-danger"><BsCheck /></span>
                                         </p>
                                     </Col>
                                 </Row>
