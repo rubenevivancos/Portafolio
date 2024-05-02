@@ -13,7 +13,7 @@ export default function Home() {
                     </Col>
                     <Col sm={9}>
                         <div className="d-flex justify-content-end">
-                            <h1 className="bg-secondary text-white px-5 py-1 rounded w-50 text-end">
+                            <h1 className="bg-secondary text-white px-5 py-1 rounded w-50 text-center">
                                 Proyectos
                             </h1>
                         </div>

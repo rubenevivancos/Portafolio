@@ -30,31 +30,31 @@ export default function Home() {
                         <div className="d-flex justify-content-center ">
                             <div className="w-75">
                                 <Row>
-                                    <Col className="text-white">
-                                        <p className="mb-4 d-flex justify-content-start align-items-center">
+                                    <Col className="text-white d-flex flex-column justify-content-start">
+                                        <p className="mb-4">
                                             <Image src={reactBootstrap} className="me-2" width="48" height="48"/>React-Bootstrap <span className="text-danger"><BsCheck /></span>
                                         </p>
-                                        <p className="mb-4 d-flex justify-content-start  align-items-center">
+                                        <p className="mb-4">
                                             <Image src={bootstrap} className="me-2" width="48" height="48"/>Bootstrap <span className="text-danger"><BsCheck /></span>
                                         </p>
-                                        <p className="mb-4 d-flex justify-content-start align-items-center">
+                                        <p className="mb-4">
                                             <Image src={react} className="me-2" width="48" height="48"/>React <span className="text-danger"><BsCheck /></span>
                                         </p>
-                                        <p className="mb-4 d-flex justify-content-start align-items-center">
+                                        <p className="mb-4">
                                             <Image src={reduxToolkit} className="me-2" width="48" height="48"/>Redux-Toolkit <span className="text-danger"><BsCheck /></span>
                                         </p>
                                     </Col>
-                                    <Col className="text-white">
-                                        <p className="mb-4 d-flex justify-content-start align-items-center">
+                                    <Col className="text-white d-flex flex-column justify-content-start">
+                                        <p className="mb-4">
                                             <Image src={node} className="me-2" width="48" height="48"/>Node <span className="text-danger"><BsCheck /></span>
                                         </p>
-                                        <p className="mb-4 d-flex justify-content-start align-items-center">
+                                        <p className="mb-4">
                                             <Image src={express} className="me-2" width="48" height="48"/>Express <span className="text-danger"><BsCheck /></span>
                                         </p>
-                                        <p className="mb-4 d-flex justify-content-start align-items-center">
+                                        <p className="mb-4">
                                             <Image src={sequelize} className="me-2" width="48" height="48"/>Sequelize <span className="text-danger"><BsCheck /></span>
                                         </p>
-                                        <p className="mb-4 d-flex justify-content-start align-items-center">
+                                        <p className="mb-4">
                                             <Image src={postgreSQL} className="me-2" width="48" height="48"/>PostgreSQL <span className="text-danger"><BsCheck /></span>
                                         </p>
                                     </Col>
