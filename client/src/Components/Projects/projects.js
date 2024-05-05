@@ -1,5 +1,9 @@
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Image } from 'react-bootstrap';
 import SideBarMenu from '../SideBarMenu/sideBarMenu';
+
+import proyecto01 from '../../Images/proyecto01.jpg';
+import proyecto02 from '../../Images/proyecto02.jpg';
+import proyecto03 from '../../Images/proyecto03.png';
 
 
 export default function Home() {
@@ -17,7 +21,36 @@ export default function Home() {
                                 Proyectos
                             </h1>
                         </div>
-                        <p className="text-white">El resto del contenido va aquí y se alinea a la izquierda.</p>
+                        <div className="mt-5 d-flex justify-content-center">
+                            <div className="w-75">
+                                <div className="text-white mb-5 border border-secondary">
+                                    <Row>
+                                        <Col>
+                                            <Image src={proyecto01} className="m-2" width="140" height="120"/>
+                                        </Col>
+                                        <Col>
+                                            
+                                        </Col>
+                                    </Row>
+                                </div>
+                                <div className="text-white mb-5 border border-secondary">
+                                    <Row>
+                                        <Col>
+                                            <Image src={proyecto02} className="m-2" width="140" height="120"/>
+                                        </Col>
+                                        <Col></Col>
+                                    </Row>
+                                </div>
+                                <div className="text-white border border-secondary">
+                                    <Row>
+                                        <Col>
+                                            <Image src={proyecto03} className="m-2" width="140" height="120"/>
+                                        </Col>
+                                        <Col></Col>
+                                    </Row>
+                                </div>
+                            </div>
+                        </div>
                     </Col>
                 </Row>
             </Container>
