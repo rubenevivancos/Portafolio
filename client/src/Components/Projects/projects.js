@@ -9,14 +9,14 @@ import proyecto03 from '../../Images/proyecto03.png';
 export default function Home() {
 
     return(
-        <div className="bg-dark" style={{ height: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+        <div className="bg-dark d-flex justify-content-center align-items-center" style={{ height: '100vh' }}>
             <Container>
                 <Row>
-                    <Col sm={3}>
+                    <Col sm={3} className="d-flex align-items-center">
                         <SideBarMenu />
                     </Col>
                     <Col sm={9}>
-                        <div className="d-flex justify-content-end">
+                        <div className="mb-5 d-flex justify-content-end">
                             <h1 className="bg-secondary text-white px-5 py-1 rounded w-50 text-center">
                                 Proyectos
                             </h1>
@@ -29,7 +29,7 @@ export default function Home() {
                                             <Image src={proyecto01} className="m-2" width="140" height="120"/>
                                         </Col>
                                         <Col>
-                                            
+
                                         </Col>
                                     </Row>
                                 </div>
