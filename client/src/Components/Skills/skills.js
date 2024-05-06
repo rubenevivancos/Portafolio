@@ -37,13 +37,13 @@ export default function Home() {
                                             <Image src={react} className="me-2" width="48" height="48"/>React <span className="text-danger"><BsCheck /></span>
                                         </p>
                                         <p className="mb-4">
-                                            <Image src={reduxToolkit} className="me-2" width="48" height="48"/>Redux-Toolkit <span className="text-danger"><BsCheck /></span>
+                                            <Image src={reduxToolkit} className="me-2 rounded" width="48" height="48"/>Redux-Toolkit <span className="text-danger"><BsCheck /></span>
                                         </p>
                                         <p className="mb-4">
                                             <Image src={sequelize} className="me-2" width="48" height="48"/>Sequelize <span className="text-danger"><BsCheck /></span>
                                         </p>
                                         <p className="mb-4">
-                                            <Image src={gitHub} className="me-2" width="48" height="48"/>GitHub <span className="text-danger"><BsCheck /></span>
+                                            <Image src={gitHub} className="me-2 rounded" width="48" height="48"/>GitHub <span className="text-danger"><BsCheck /></span>
                                         </p>
                                     </Col>
                                     <Col className="text-white d-flex flex-column justify-content-start">
@@ -62,7 +62,7 @@ export default function Home() {
                                             <Image src={bootstrap} className="me-2" width="48" height="48"/>Bootstrap <span className="text-danger"><BsCheck /></span>
                                         </p>
                                         <p className="mb-4">
-                                            <Image src={express} className="me-2" width="48" height="48"/>Express <span className="text-danger"><BsCheck /></span>
+                                            <Image src={express} className="me-2 rounded" width="48" height="48"/>Express <span className="text-danger"><BsCheck /></span>
                                         </p>
                                         <p className="mb-4">
                                             <Image src={git} className="me-2" width="48" height="48"/>Git <span className="text-danger"><BsCheck /></span>

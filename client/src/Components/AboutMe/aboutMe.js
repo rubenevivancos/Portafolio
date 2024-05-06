@@ -19,10 +19,10 @@ export default function Home() {
                         </div>
                         <div className="d-flex justify-content-center text-white px-5 py-5 text-justify">
                             <p className="w-75">
-                                Mi nombre es <span className="bg-primary rounded">Rubén Vivanco Salazar</span>, soy un Desarrollador Full Stack con sede en Lima-Perú.
+                                Mi nombre es <span className="bg-primary rounded px-2">Rubén Vivanco Salazar</span>, soy un Desarrollador Full Stack con sede en Lima-Perú.
                                 Tengo más de 5 años de experiencia como desarrollador, principalmente con las tecnologías Java y Oracle.
-                                Adquirí nuevos conocimientos en el <span className="bg-primary rounded">bootcamp SoyHenry</span> y ahora quiero empezar una nueva etapa, nuevos retos con éstas 
-                                nuevas tecnologías trabajando en <span className="bg-primary rounded">forma remota</span>.
+                                Adquirí nuevos conocimientos en el <span className="bg-primary rounded px-2">bootcamp SoyHenry</span> y ahora quiero empezar una nueva etapa, nuevos retos con éstas 
+                                nuevas tecnologías trabajando en <span className="bg-primary rounded px-2">forma remota</span>.
                             </p>
                         </div>
                     </Col>
