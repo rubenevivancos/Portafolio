@@ -32,7 +32,7 @@ export default function Home() {
                                 Proyectos
                             </h1>
                         </div>
-                        <div className="mt-5 d-flex justify-content-center overflow-auto" style={{ maxHeight: '80vh' }}>
+                        <div className="mt-5 d-flex justify-content-center overflow-auto" style={{ maxHeight: '80vh', scrollbarColor: '#6c757d #292e33' }}>
                             <div className="w-75">
                                 <div className="mb-5 border border-secondary d-flex flex-row">
                                         <div className="col-auto d-flex align-items-center justify-content-center p-3">
