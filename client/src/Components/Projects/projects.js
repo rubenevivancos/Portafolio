@@ -32,7 +32,7 @@ export default function Home() {
                                 Proyectos
                             </h1>
                         </div>
-                        <div className="mt-5 d-flex justify-content-center">
+                        <div className="mt-5 d-flex justify-content-center overflow-auto" style={{ maxHeight: '80vh' }}>
                             <div className="w-75">
                                 <div className="mb-5 border border-secondary d-flex flex-row">
                                         <div className="col-auto d-flex align-items-center justify-content-center p-3">
@@ -45,9 +45,15 @@ export default function Home() {
                                                         <b>App de Razas Caninas</b>
                                                     </Card.Title>
                                                     <Card.Text className="d-flex flex-column">
-                                                        <span className="mb-4">
+                                                        <span className="mb-2">
                                                             Aplicación que consume datos de una API (The Dog API) a través de un
                                                             Backend. Se puede realizar; búsquedas, ordenamientos y filtros, ver detalle, realizar registro.
+                                                        </span>
+                                                        <span>
+                                                            La Versión 1 está hecha con Redux
+                                                        </span>
+                                                        <span className="mb-4">
+                                                            La Versión 2 está hecha con Redux-Toolkit
                                                         </span>
                                                         <span className="mb-2">
                                                             Versión 1:
@@ -56,8 +62,8 @@ export default function Home() {
                                                             <span className="bg-secondary rounded px-2 me-2 mb-2 small">React</span>
                                                             <span className="bg-secondary rounded px-2 me-2 mb-2 small">Redux</span>
                                                             <span className="bg-secondary rounded px-2 me-2 mb-2 small">Node</span>
-                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Sequelize</span>
                                                             <span className="bg-secondary rounded px-2 me-2 mb-2 small">Express</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Sequelize</span>
                                                             <span className="bg-secondary rounded px-2 me-2 mb-2 small">PostgreSQL</span>
                                                         </span>
                                                         <span className="mb-4">
@@ -70,8 +76,8 @@ export default function Home() {
                                                             <span className="bg-secondary rounded px-2 me-2 mb-2 small">React</span>
                                                             <span className="bg-secondary rounded px-2 me-2 mb-2 small">Redux-Toolkit</span>
                                                             <span className="bg-secondary rounded px-2 me-2 mb-2 small">Node</span>
-                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Sequelize</span>
                                                             <span className="bg-secondary rounded px-2 me-2 mb-2 small">Express</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Sequelize</span>
                                                             <span className="bg-secondary rounded px-2 me-2 mb-2 small">PostgreSQL</span>
                                                         </span>
                                                         <span>
@@ -82,21 +88,113 @@ export default function Home() {
                                             </Card>
                                         </div>
                                 </div>
-                                <div className="text-white mb-5 border border-secondary">
-                                    <Row>
-                                        <Col>
-                                            <Image src={proyecto02} className="m-2" width="140" height="120"/>
-                                        </Col>
-                                        <Col></Col>
-                                    </Row>
+                                <div className="mb-5 border border-secondary d-flex flex-row">
+                                        <div className="col-auto d-flex align-items-center justify-content-center p-3">
+                                            <Image src={proyecto01} width="140" height="120"/>
+                                        </div>
+                                        <div>
+                                            <Card className="bg-dark text-white border-0">
+                                                <Card.Body>
+                                                    <Card.Title>
+                                                        <b>App de Razas Caninas</b>
+                                                    </Card.Title>
+                                                    <Card.Text className="d-flex flex-column">
+                                                        <span className="mb-2">
+                                                            Aplicación que consume datos de una API (The Dog API) a través de un
+                                                            Backend. Se puede realizar; búsquedas, ordenamientos y filtros, ver detalle, realizar registro.
+                                                        </span>
+                                                        <span>
+                                                            La Versión 1 está hecha con Redux
+                                                        </span>
+                                                        <span className="mb-4">
+                                                            La Versión 2 está hecha con Redux-Toolkit
+                                                        </span>
+                                                        <span className="mb-2">
+                                                            Versión 1:
+                                                        </span>
+                                                        <span className="d-flex flex-wrap">
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">React</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Redux</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Node</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Express</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Sequelize</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">PostgreSQL</span>
+                                                        </span>
+                                                        <span className="mb-4">
+                                                            <Link className="pe-2 small text-white">GitHub</Link> <Link className="small text-white">Deploy</Link>
+                                                        </span>
+                                                        <span className="mb-2">
+                                                            Versión 2: 
+                                                        </span>
+                                                        <span className="d-flex flex-wrap">
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">React</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Redux-Toolkit</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Node</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Express</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Sequelize</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">PostgreSQL</span>
+                                                        </span>
+                                                        <span>
+                                                            <Link className="pe-2 small text-white">GitHub</Link> <Link className="small text-white">Deploy</Link>
+                                                        </span>
+                                                    </Card.Text>
+                                                </Card.Body>
+                                            </Card>
+                                        </div>
                                 </div>
-                                <div className="text-white border border-secondary">
-                                    <Row>
-                                        <Col>
-                                            <Image src={proyecto03} className="m-2" width="140" height="120"/>
-                                        </Col>
-                                        <Col></Col>
-                                    </Row>
+                                <div className="mb-5 border border-secondary d-flex flex-row">
+                                        <div className="col-auto d-flex align-items-center justify-content-center p-3">
+                                            <Image src={proyecto01} width="140" height="120"/>
+                                        </div>
+                                        <div>
+                                            <Card className="bg-dark text-white border-0">
+                                                <Card.Body>
+                                                    <Card.Title>
+                                                        <b>App de Razas Caninas</b>
+                                                    </Card.Title>
+                                                    <Card.Text className="d-flex flex-column">
+                                                        <span className="mb-2">
+                                                            Aplicación que consume datos de una API (The Dog API) a través de un
+                                                            Backend. Se puede realizar; búsquedas, ordenamientos y filtros, ver detalle, realizar registro.
+                                                        </span>
+                                                        <span>
+                                                            La Versión 1 está hecha con Redux
+                                                        </span>
+                                                        <span className="mb-4">
+                                                            La Versión 2 está hecha con Redux-Toolkit
+                                                        </span>
+                                                        <span className="mb-2">
+                                                            Versión 1:
+                                                        </span>
+                                                        <span className="d-flex flex-wrap">
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">React</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Redux</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Node</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Express</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Sequelize</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">PostgreSQL</span>
+                                                        </span>
+                                                        <span className="mb-4">
+                                                            <Link className="pe-2 small text-white">GitHub</Link> <Link className="small text-white">Deploy</Link>
+                                                        </span>
+                                                        <span className="mb-2">
+                                                            Versión 2: 
+                                                        </span>
+                                                        <span className="d-flex flex-wrap">
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">React</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Redux-Toolkit</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Node</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Express</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Sequelize</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">PostgreSQL</span>
+                                                        </span>
+                                                        <span>
+                                                            <Link className="pe-2 small text-white">GitHub</Link> <Link className="small text-white">Deploy</Link>
+                                                        </span>
+                                                    </Card.Text>
+                                                </Card.Body>
+                                            </Card>
+                                        </div>
                                 </div>
                             </div>
                         </div>
