@@ -45,18 +45,12 @@ export default function Home() {
                                                         <b>App de Razas Caninas</b>
                                                     </Card.Title>
                                                     <Card.Text className="d-flex flex-column">
-                                                        <span className="mb-2">
+                                                        <span className="mb-4 small">
                                                             Aplicación que consume datos de una API (The Dog API) a través de un
                                                             Backend. Se puede realizar; búsquedas, ordenamientos y filtros, ver detalle, realizar registro.
                                                         </span>
-                                                        <span>
-                                                            La Versión 1 está hecha con Redux
-                                                        </span>
-                                                        <span className="mb-4">
-                                                            La Versión 2 está hecha con Redux-Toolkit
-                                                        </span>
                                                         <span className="mb-2">
-                                                            Versión 1:
+                                                            <b>Versión 1:</b> <span className="small">Está hecha con Redux</span>
                                                         </span>
                                                         <span className="d-flex flex-wrap">
                                                             <span className="bg-secondary rounded px-2 me-2 mb-2 small">React</span>
@@ -67,10 +61,18 @@ export default function Home() {
                                                             <span className="bg-secondary rounded px-2 me-2 mb-2 small">PostgreSQL</span>
                                                         </span>
                                                         <span className="mb-4">
-                                                            <Link className="pe-2 small text-white">GitHub</Link> <Link className="small text-white">Deploy</Link>
+                                                            <Link className="pe-2 small text-white"
+                                                                  to="#" 
+                                                                  onClick={() => window.open("https://github.com/rubenevivancos/PI-Dogs-Henry", "_blank")}
+                                                            >
+                                                                GitHub
+                                                            </Link> 
+                                                            <Link className="small text-white">
+                                                                Deploy
+                                                            </Link>
                                                         </span>
                                                         <span className="mb-2">
-                                                            Versión 2: 
+                                                            <b>Versión 2:</b> <span className="small">Está hecha con Redux-Toolkit</span>
                                                         </span>
                                                         <span className="d-flex flex-wrap">
                                                             <span className="bg-secondary rounded px-2 me-2 mb-2 small">React</span>
@@ -81,7 +83,15 @@ export default function Home() {
                                                             <span className="bg-secondary rounded px-2 me-2 mb-2 small">PostgreSQL</span>
                                                         </span>
                                                         <span>
-                                                            <Link className="pe-2 small text-white">GitHub</Link> <Link className="small text-white">Deploy</Link>
+                                                            <Link className="pe-2 small text-white"
+                                                                  to="#" 
+                                                                  onClick={() => window.open("https://github.com/rubenevivancos/PI_Dogs_2.0", "_blank")}
+                                                            >
+                                                                GitHub
+                                                            </Link> 
+                                                            <Link className="small text-white">
+                                                                Deploy
+                                                            </Link>
                                                         </span>
                                                     </Card.Text>
                                                 </Card.Body>
