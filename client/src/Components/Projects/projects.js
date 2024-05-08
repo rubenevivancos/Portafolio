@@ -63,6 +63,7 @@ export default function Home() {
                                                         <span className="mb-4">
                                                             <Link className="pe-2 small text-white"
                                                                   to="#" 
+                                                                  title="https://github.com/rubenevivancos/PI-Dogs-Henry"
                                                                   onClick={() => window.open("https://github.com/rubenevivancos/PI-Dogs-Henry", "_blank")}
                                                             >
                                                                 GitHub
@@ -85,6 +86,7 @@ export default function Home() {
                                                         <span>
                                                             <Link className="pe-2 small text-white"
                                                                   to="#" 
+                                                                  title="https://github.com/rubenevivancos/PI_Dogs_2.0"
                                                                   onClick={() => window.open("https://github.com/rubenevivancos/PI_Dogs_2.0", "_blank")}
                                                             >
                                                                 GitHub
@@ -127,6 +129,7 @@ export default function Home() {
                                                         <span className="mb-4">
                                                             <Link className="pe-2 small text-white"
                                                                   to="#" 
+                                                                  title="https://github.com/rubenevivancos/BazarUniversal2.0"
                                                                   onClick={() => window.open("https://github.com/rubenevivancos/BazarUniversal2.0", "_blank")}
                                                             >
                                                                 GitHub
@@ -153,6 +156,7 @@ export default function Home() {
                                                         <span>
                                                             <Link className="pe-2 small text-white"
                                                                   to="#" 
+                                                                  title="https://github.com/rubenevivancos/BazarUniversal3.0"
                                                                   onClick={() => window.open("https://github.com/rubenevivancos/BazarUniversal3.0", "_blank")}
                                                             >
                                                                 GitHub
@@ -189,6 +193,7 @@ export default function Home() {
                                                         <span className="mb-4">
                                                             <Link className="pe-2 small text-white"
                                                                   to="#" 
+                                                                  title="https://github.com/rubenevivancos/Portafolio"
                                                                   onClick={() => window.open("https://github.com/rubenevivancos/Portafolio", "_blank")}
                                                             >
                                                                 GitHub
