@@ -1,8 +1,15 @@
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Button } from 'react-bootstrap';
+import { BsDownload } from 'react-icons/bs';
+
 import SideBarMenu from '../SideBarMenu/sideBarMenu';
 
 
 export default function Home() {
+
+    const descargarCurriculum = () => {
+        // Lógica para descargar el currículum aquí
+        // Por ejemplo, podrías usar window.open() o fetch() para descargar el archivo
+      };
 
     return(
         <div className="bg-dark d-flex justify-content-center align-items-center" style={{ height: '100vh' }}>
@@ -17,7 +24,14 @@ export default function Home() {
                                 Curriculum
                             </h1>
                         </div>
-                        <p className="text-white">El resto del contenido va aquí y se alinea a la izquierda.</p>
+                        <div className="mt-5 d-flex justify-content-center">
+                            <div className="w-75 text-white ps-5">
+                                <span className="me-3">Descargar curriculum actualizado</span><BsDownload />
+                            </div>
+                            <Button variant="warning" onClick={descargarCurriculum} download="mi_curriculum.pdf">
+                                <BsDownload /> Descargar
+                            </Button>
+                        </div>
                     </Col>
                 </Row>
             </Container>
