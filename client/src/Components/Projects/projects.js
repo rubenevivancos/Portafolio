@@ -3,18 +3,6 @@ import { Link } from 'react-router-dom';
 
 import SideBarMenu from '../SideBarMenu/sideBarMenu';
 import proyecto01 from '../../Images/proyecto01.jpg';
-import proyecto02 from '../../Images/proyecto02.jpg';
-import proyecto03 from '../../Images/proyecto03.png';
-import reactBootstrap from '../../Images/react-bootstrap.png';
-import bootstrap from '../../Images/bootstrap.png';
-import react from '../../Images/react.png';
-import reduxToolkit from '../../Images/redux-toolkit.png';
-import node from '../../Images/node.png';
-import express from '../../Images/express.png';
-import sequelize from '../../Images/sequelize.png';
-import postgreSQL from '../../Images/postgresql.png';
-import git from '../../Images/git.png';
-import gitHub from '../../Images/gitHub.png';
 
 
 export default function Home() {
