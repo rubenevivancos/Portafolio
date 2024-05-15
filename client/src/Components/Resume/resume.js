@@ -1,5 +1,6 @@
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import { BsDownload } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 
 import SideBarMenu from '../SideBarMenu/sideBarMenu';
 
@@ -7,8 +8,32 @@ import SideBarMenu from '../SideBarMenu/sideBarMenu';
 export default function Home() {
 
     const descargarCurriculum = () => {
-        // Lógica para descargar el currículum aquí
-        // Por ejemplo, podrías usar window.open() o fetch() para descargar el archivo
+        // Simula el contenido del currículum (en este caso, un texto de ejemplo)
+        const curriculumContenido = "Este es mi currículum. Contenido de ejemplo.";
+
+        // Crea un nuevo Blob con el contenido del currículum
+        const blob = new Blob([curriculumContenido], { type: 'application/pdf' });
+
+        // Crea una URL para el Blob
+        const url = URL.createObjectURL(blob);
+
+        // Crea un enlace invisible
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = 'mi_curriculum.pdf'; // Nombre del archivo a descargar
+        link.style.display = 'none';
+
+        // Agrega el enlace al cuerpo del documento
+        document.body.appendChild(link);
+
+        // Simula un clic en el enlace para iniciar la descarga
+        link.click();
+
+        // Limpia el URL creado después de que se haya iniciado la descarga
+        URL.revokeObjectURL(url);
+
+        // Remueve el enlace del cuerpo del documento
+        document.body.removeChild(link);
       };
 
     return(
@@ -26,11 +51,11 @@ export default function Home() {
                         </div>
                         <div className="mt-5 d-flex justify-content-center">
                             <div className="w-75 text-white ps-5">
-                                <span className="me-3">Descargar curriculum actualizado</span><BsDownload />
+                                <span className="me-3">Descargar curriculum actualizado</span>
+                                <Link to="/download" onClick={descargarCurriculum} download="mi_curriculum.pdf" className="text-decoration-none text-white">
+                                    <BsDownload />
+                                </Link>
                             </div>
-                            <Button variant="warning" onClick={descargarCurriculum} download="mi_curriculum.pdf">
-                                <BsDownload /> Descargar
-                            </Button>
                         </div>
                     </Col>
                 </Row>
