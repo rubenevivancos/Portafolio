@@ -14,7 +14,7 @@ import git from '../../Images/git.png';
 import gitHub from '../../Images/gitHub.png';
 
 
-export default function Home() {
+export default function Skills() {
 
     return(
         <div className="bg-dark d-flex justify-content-center align-items-center" style={{ height: '100vh' }}>

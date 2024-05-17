@@ -2,7 +2,7 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 import SideBarMenu from '../SideBarMenu/sideBarMenu';
 
 
-export default function Home() {
+export default function Experience() {
 
     return(
         <div className="bg-dark d-flex justify-content-center align-items-center" style={{ height: '100vh' }}>

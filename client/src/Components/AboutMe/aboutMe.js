@@ -2,7 +2,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import SideBarMenu from '../SideBarMenu/sideBarMenu';
 
 
-export default function Home() {
+export default function AboutMe() {
 
     return(
         <div className="bg-dark d-flex justify-content-center align-items-center" style={{ height: '100vh' }}>

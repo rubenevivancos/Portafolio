@@ -6,7 +6,7 @@ import SideBarMenu from '../SideBarMenu/sideBarMenu';
 import curriculumPDF from '../../Documents/rubenVivancoCV.pdf';
 
 
-export default function Home() {
+export default function Resume() {
 
     const descargarCurriculum = () => {
         // Crear un enlace temporal para descargar el PDF

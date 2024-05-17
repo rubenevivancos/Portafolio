@@ -7,7 +7,7 @@ import linkedin from '../../Images/linkedin.png';
 import mail from '../../Images/mail.png';
 
 
-export default function Home() {
+export default function Contact() {
 
     const gitHubURL = 'https://github.com/rubenevivancos';
     const linkedinURL = 'https://www.linkedin.com/in/rubenvivancosalazar';

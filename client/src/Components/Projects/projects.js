@@ -5,7 +5,7 @@ import SideBarMenu from '../SideBarMenu/sideBarMenu';
 import proyecto01 from '../../Images/proyecto01.jpg';
 
 
-export default function Home() {
+export default function Projects() {
 
     return(
         <div className="bg-dark d-flex justify-content-center align-items-center" style={{ height: '100vh' }}>
