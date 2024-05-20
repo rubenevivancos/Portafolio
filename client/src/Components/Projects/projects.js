@@ -2,7 +2,9 @@ import { Container, Row, Col, Image, Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 import SideBarMenu from '../SideBarMenu/sideBarMenu';
-import proyecto01 from '../../Images/proyecto01.jpg';
+import portafolio from '../../Images/portafolio.png';
+import bazarUniversal from '../../Images/bazarUniversal.png';
+import dogs from '../../Images/dogs.png';
 
 
 export default function Projects() {
@@ -23,8 +25,8 @@ export default function Projects() {
                         <div className="mt-5 d-flex justify-content-center overflow-auto" style={{ maxHeight: '80vh', scrollbarColor: '#6c757d #292e33' }}>
                             <div className="w-75">
                                 <div className="mb-5 border border-secondary d-flex flex-row">
-                                        <div className="col-auto d-flex align-items-center justify-content-center p-3">
-                                            <Image src={proyecto01} width="140" height="120"/>
+                                        <div className="col-auto d-flex align-items-center justify-content-center p-3" style={{ width: '188px' }}>
+                                            <Image src={dogs} width="140" height="120"/>
                                         </div>
                                         <div>
                                             <Card className="bg-dark text-white border-0">
@@ -89,8 +91,8 @@ export default function Projects() {
                                         </div>
                                 </div>
                                 <div className="mb-5 border border-secondary d-flex flex-row">
-                                        <div className="col-auto d-flex align-items-center justify-content-center p-3">
-                                            <Image src={proyecto01} width="140" height="120"/>
+                                        <div className="col-auto d-flex align-items-center justify-content-center p-3" style={{ width: '188px' }}>
+                                            <Image src={bazarUniversal} width="100" height="120"/>
                                         </div>
                                         <div>
                                             <Card className="bg-dark text-white border-0">
@@ -159,8 +161,8 @@ export default function Projects() {
                                         </div>
                                 </div>
                                 <div className="mb-5 border border-secondary d-flex flex-row">
-                                        <div className="col-auto d-flex align-items-center justify-content-center p-3">
-                                            <Image src={proyecto01} width="140" height="120"/>
+                                        <div className="col-auto d-flex align-items-center justify-content-center p-3" style={{ width: '188px' }}>
+                                            <Image src={portafolio} width="140" height="50"/>
                                         </div>
                                         <div>
                                             <Card className="bg-dark text-white border-0">
