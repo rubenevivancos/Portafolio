@@ -124,7 +124,11 @@ export default function Projects() {
                                                             >
                                                                 GitHub
                                                             </Link> 
-                                                            <Link className="small text-white">
+                                                            <Link className="small text-white"
+                                                                  to="#" 
+                                                                  title="https://bazaruniversal20frontend-production.up.railway.app"
+                                                                  onClick={() => window.open("https://bazaruniversal20frontend-production.up.railway.app", "_blank")}
+                                                            >
                                                                 Deploy
                                                             </Link>
                                                         </span>
@@ -151,7 +155,11 @@ export default function Projects() {
                                                             >
                                                                 GitHub
                                                             </Link> 
-                                                            <Link className="small text-white">
+                                                            <Link className="small text-white"
+                                                                  to="#" 
+                                                                  title="https://bazaruniversal30frontend-production.up.railway.app"
+                                                                  onClick={() => window.open("https://bazaruniversal30frontend-production.up.railway.app", "_blank")}
+                                                            >
                                                                 Deploy
                                                             </Link>
                                                         </span>
