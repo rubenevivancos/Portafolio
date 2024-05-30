@@ -157,8 +157,8 @@ export default function Projects() {
                                                             </Link> 
                                                             <Link className="small text-white"
                                                                   to="#" 
-                                                                  title="https://bazaruniversal30frontend-production.up.railway.app"
-                                                                  onClick={() => window.open("https://bazaruniversal30frontend-production.up.railway.app", "_blank")}
+                                                                  title="https://bazar-universal3-0-front-end.vercel.app"
+                                                                  onClick={() => window.open("https://bazar-universal3-0-front-end.vercel.app", "_blank")}
                                                             >
                                                                 Deploy
                                                             </Link>
