@@ -58,7 +58,11 @@ export default function Projects() {
                                                             >
                                                                 GitHub
                                                             </Link> 
-                                                            <Link className="small text-white">
+                                                            <Link className="small text-white"
+                                                                  to="#" 
+                                                                  title="https://pi-dogs-henry-front-end.vercel.app"
+                                                                  onClick={() => window.open("https://pi-dogs-henry-front-end.vercel.app", "_blank")}
+                                                            >
                                                                 Deploy
                                                             </Link>
                                                         </span>
