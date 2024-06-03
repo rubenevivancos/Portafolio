@@ -85,7 +85,11 @@ export default function Projects() {
                                                             >
                                                                 GitHub
                                                             </Link> 
-                                                            <Link className="small text-white">
+                                                            <Link className="small text-white"
+                                                                  to="#" 
+                                                                  title="https://pi-dogs-2-0-front-end.vercel.app"
+                                                                  onClick={() => window.open("https://pi-dogs-2-0-front-end.vercel.app", "_blank")}
+                                                            >
                                                                 Deploy
                                                             </Link>
                                                         </span>
@@ -199,9 +203,6 @@ export default function Projects() {
                                                                   onClick={() => window.open("https://github.com/rubenevivancos/Portafolio", "_blank")}
                                                             >
                                                                 GitHub
-                                                            </Link> 
-                                                            <Link className="small text-white">
-                                                                Deploy
                                                             </Link>
                                                         </span>
                                                     </Card.Text>
