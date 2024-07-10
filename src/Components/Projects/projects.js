@@ -37,7 +37,7 @@ export default function Projects() {
                                                     <Card.Text className="d-flex flex-column">
                                                         <span className="mb-4 small">
                                                             Aplicación que consume datos de una API (The Dog API) a través de un
-                                                            Backend. Se puede realizar; búsquedas, ordenamientos y filtros, ver detalle, realizar registro.
+                                                            Backend. Se pueden realizar: búsquedas, ordenamientos y filtros, ver detalle, realizar registro.
                                                         </span>
                                                         <span className="mb-2">
                                                             <b>Versión 1:</b> <span className="small">Está hecha con Redux</span>
@@ -53,11 +53,18 @@ export default function Projects() {
                                                         <span className="mb-4">
                                                             <Link className="pe-2 small text-white"
                                                                   to="#" 
-                                                                  title="https://github.com/rubenevivancos/PI-Dogs-Henry"
-                                                                  onClick={() => window.open("https://github.com/rubenevivancos/PI-Dogs-Henry", "_blank")}
+                                                                  title="https://github.com/rubenevivancos/PI-Dogs-Henry_FrontEnd"
+                                                                  onClick={() => window.open("https://github.com/rubenevivancos/PI-Dogs-Henry_FrontEnd", "_blank")}
                                                             >
-                                                                GitHub
-                                                            </Link> 
+                                                                GitHub-Frontend
+                                                            </Link>
+                                                            <Link className="pe-2 small text-white"
+                                                                  to="#" 
+                                                                  title="https://github.com/rubenevivancos/PI-Dogs-Henry_BackEnd"
+                                                                  onClick={() => window.open("https://github.com/rubenevivancos/PI-Dogs-Henry_BackEnd", "_blank")}
+                                                            >
+                                                                GitHub-Backend
+                                                            </Link>
                                                             <Link className="small text-white"
                                                                   to="#" 
                                                                   title="https://pi-dogs-henry-front-end.vercel.app"
@@ -80,11 +87,18 @@ export default function Projects() {
                                                         <span>
                                                             <Link className="pe-2 small text-white"
                                                                   to="#" 
-                                                                  title="https://github.com/rubenevivancos/PI_Dogs_2.0"
-                                                                  onClick={() => window.open("https://github.com/rubenevivancos/PI_Dogs_2.0", "_blank")}
+                                                                  title="https://github.com/rubenevivancos/PI_Dogs_2.0_FrontEnd"
+                                                                  onClick={() => window.open("https://github.com/rubenevivancos/PI_Dogs_2.0_FrontEnd", "_blank")}
                                                             >
-                                                                GitHub
-                                                            </Link> 
+                                                                GitHub-Frontend
+                                                            </Link>
+                                                            <Link className="pe-2 small text-white"
+                                                                  to="#" 
+                                                                  title="https://github.com/rubenevivancos/PI_Dogs_2.0_BackEnd"
+                                                                  onClick={() => window.open("https://github.com/rubenevivancos/PI_Dogs_2.0_BackEnd", "_blank")}
+                                                            >
+                                                                GitHub-Backend
+                                                            </Link>
                                                             <Link className="small text-white"
                                                                   to="#" 
                                                                   title="https://pi-dogs-2-0-front-end.vercel.app"
@@ -127,11 +141,18 @@ export default function Projects() {
                                                         <span className="mb-4">
                                                             <Link className="pe-2 small text-white"
                                                                   to="#" 
-                                                                  title="https://github.com/rubenevivancos/BazarUniversal2.0"
-                                                                  onClick={() => window.open("https://github.com/rubenevivancos/BazarUniversal2.0", "_blank")}
+                                                                  title="https://github.com/rubenevivancos/BazarUniversal2.0_FrontEnd"
+                                                                  onClick={() => window.open("https://github.com/rubenevivancos/BazarUniversal2.0_FrontEnd", "_blank")}
                                                             >
-                                                                GitHub
-                                                            </Link> 
+                                                                GitHub-Frontend
+                                                            </Link>
+                                                            <Link className="pe-2 small text-white"
+                                                                  to="#" 
+                                                                  title="https://github.com/rubenevivancos/BazarUniversal2.0_BackEnd"
+                                                                  onClick={() => window.open("https://github.com/rubenevivancos/BazarUniversal2.0_BackEnd", "_blank")}
+                                                            >
+                                                                GitHub-Backend
+                                                            </Link>
                                                             <Link className="small text-white"
                                                                   to="#" 
                                                                   title="https://bazar-universal2-0-front-end.vercel.app"
@@ -141,8 +162,9 @@ export default function Projects() {
                                                             </Link>
                                                         </span>
                                                         <span className="mb-2">
-                                                            <b>Versión 2:</b> <span className="small">La informacion es obtenida de 3 tablas relacionadas en una 
-                                                                                                      bd PostgreSQL, se usan 3 funciones almacenadas.
+                                                            <b>Versión 2:</b> <span className="small">Los datos se obtienen de tres tablas relacionadas 
+                                                                                                      en una base de datos PostgreSQL, utilizando 
+                                                                                                      tres funciones almacenadas.
                                                                               </span>
                                                         </span>
                                                         <span className="d-flex flex-wrap">
@@ -155,18 +177,63 @@ export default function Projects() {
                                                             <span className="bg-secondary rounded px-2 me-2 mb-2 small">Sequelize</span>
                                                             <span className="bg-secondary rounded px-2 me-2 mb-2 small">PostgreSQL</span>
                                                         </span>
-                                                        <span>
+                                                        <span className="mb-4">
                                                             <Link className="pe-2 small text-white"
                                                                   to="#" 
-                                                                  title="https://github.com/rubenevivancos/BazarUniversal3.0"
-                                                                  onClick={() => window.open("https://github.com/rubenevivancos/BazarUniversal3.0", "_blank")}
+                                                                  title="https://github.com/rubenevivancos/BazarUniversal3.0_FrontEnd"
+                                                                  onClick={() => window.open("https://github.com/rubenevivancos/BazarUniversal3.0_FrontEnd", "_blank")}
                                                             >
-                                                                GitHub
-                                                            </Link> 
+                                                                GitHub-Frontend
+                                                            </Link>
+                                                            <Link className="pe-2 small text-white"
+                                                                  to="#" 
+                                                                  title="https://github.com/rubenevivancos/BazarUniversal3.0_BackEnd"
+                                                                  onClick={() => window.open("https://github.com/rubenevivancos/BazarUniversal3.0_BackEnd", "_blank")}
+                                                            >
+                                                                GitHub-Backend
+                                                            </Link>                                                             
                                                             <Link className="small text-white"
                                                                   to="#" 
                                                                   title="https://bazar-universal3-0-front-end.vercel.app"
                                                                   onClick={() => window.open("https://bazar-universal3-0-front-end.vercel.app", "_blank")}
+                                                            >
+                                                                Deploy
+                                                            </Link>
+                                                        </span>
+                                                        <span className="mb-2">
+                                                            <b>Versión 3:</b> <span className="small">Los datos se obtienen de una base de datos MongoDB 
+                                                                                                      y se gestionan mediante Mongoose.
+                                                                              </span>
+                                                        </span>
+                                                        <span className="d-flex flex-wrap">
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Bootstrap</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">React-Bootstrap</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">React</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Redux-Toolkit</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Node</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Express</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Mongoose</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">MongoDB</span>
+                                                        </span>
+                                                        <span>
+                                                            <Link className="pe-2 small text-white"
+                                                                  to="#" 
+                                                                  title="https://github.com/rubenevivancos/BazarUniversal4.0_FrontEnd"
+                                                                  onClick={() => window.open("https://github.com/rubenevivancos/BazarUniversal4.0_FrontEnd", "_blank")}
+                                                            >
+                                                                GitHub-Frontend
+                                                            </Link>
+                                                            <Link className="pe-2 small text-white"
+                                                                  to="#" 
+                                                                  title="https://github.com/rubenevivancos/BazarUniversal4.0_BackEnd"
+                                                                  onClick={() => window.open("https://github.com/rubenevivancos/BazarUniversal4.0_BackEnd", "_blank")}
+                                                            >
+                                                                GitHub-Backend
+                                                            </Link>
+                                                            <Link className="small text-white"
+                                                                  to="#" 
+                                                                  title="https://bazar-universal4-0-front-end.vercel.app"
+                                                                  onClick={() => window.open("https://bazar-universal4-0-front-end.vercel.app", "_blank")}
                                                             >
                                                                 Deploy
                                                             </Link>
