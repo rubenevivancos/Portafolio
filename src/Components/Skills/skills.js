@@ -12,6 +12,8 @@ import sequelize from '../../Images/sequelize.png';
 import postgreSQL from '../../Images/postgresql.png';
 import git from '../../Images/git.png';
 import gitHub from '../../Images/gitHub.png';
+import mongoose from '../../Images/mongoose.png';
+import mongoDB from '../../Images/mongoDB.png';
 
 
 export default function Skills() {
@@ -43,7 +45,7 @@ export default function Skills() {
                                             <Image src={sequelize} className="me-2" width="48" height="48"/>Sequelize <span className="text-danger"><BsCheck /></span>
                                         </p>
                                         <p className="mb-4">
-                                            <Image src={gitHub} className="me-2 rounded" width="48" height="48"/>GitHub <span className="text-danger"><BsCheck /></span>
+                                            <Image src={mongoDB} className="me-2 rounded" width="48" height="48"/>MongoDB <span className="text-danger"><BsCheck /></span>
                                         </p>
                                     </Col>
                                     <Col className="text-white d-flex flex-column justify-content-start">
@@ -56,6 +58,9 @@ export default function Skills() {
                                         <p className="mb-4">
                                             <Image src={postgreSQL} className="me-2" width="48" height="48"/>PostgreSQL <span className="text-danger"><BsCheck /></span>
                                         </p>
+                                        <p className="mb-4">
+                                            <Image src={git} className="me-2" width="48" height="48"/>Git <span className="text-danger"><BsCheck /></span>
+                                        </p>
                                     </Col>
                                     <Col className="text-white d-flex flex-column justify-content-start">
                                         <p className="mb-4">
@@ -65,7 +70,10 @@ export default function Skills() {
                                             <Image src={express} className="me-2 rounded" width="48" height="48"/>Express <span className="text-danger"><BsCheck /></span>
                                         </p>
                                         <p className="mb-4">
-                                            <Image src={git} className="me-2" width="48" height="48"/>Git <span className="text-danger"><BsCheck /></span>
+                                            <Image src={mongoose} className="me-2" width="48" height="48"/>Mongoose <span className="text-danger"><BsCheck /></span>
+                                        </p>
+                                        <p className="mb-4">
+                                            <Image src={gitHub} className="me-2 rounded" width="48" height="48"/>GitHub <span className="text-danger"><BsCheck /></span>
                                         </p>
                                     </Col>
                                 </Row>
