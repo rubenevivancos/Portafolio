@@ -2,6 +2,7 @@ import { Container, Row, Col, Image, Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 import SideBarMenu from '../SideBarMenu/sideBarMenu';
+import HamburguerMenu from '../HamburguerMenu/hamburguerMenu';
 import portafolio from '../../Images/portafolio.png';
 import bazarUniversal from '../../Images/bazarUniversal.png';
 import dogs from '../../Images/dogs.png';
@@ -10,22 +11,41 @@ import dogs from '../../Images/dogs.png';
 export default function Projects() {
 
     return(
-        <div className="bg-dark d-flex justify-content-center align-items-center" style={{ height: '100vh' }}>
+        <div className="bg-dark d-flex justify-content-center align-items-center min-vh-100">
+        {/* Otra opcion usando Inline Style Condicional */}
+        {/* <div className="bg-dark d-flex justify-content-center align-items-center" style={{ height: isSmallScreen ? 'auto' : '100vh' }}> */}
             <Container>
                 <Row>
-                    <Col sm={3} className="d-flex align-items-center">
+                    <Col lg={3} className="d-flex align-items-center">
+                        {/* Sidebar para pantallas grandes */}
                         <SideBarMenu />
+
+                        {/* Menú de hamburguesa para pantallas pequeñas */}
+                        <HamburguerMenu />
                     </Col>
-                    <Col sm={9}>
+                    
+                    <Col lg={9}>
                         <div className="mb-5 d-flex justify-content-end">
-                            <h1 className="bg-secondary text-white px-5 py-1 rounded w-50 text-center">
+                            {/* Para pantallas grandes */}
+                            <h1 className="bg-secondary text-white px-4 py-1 rounded w-50 text-center d-none d-lg-block">
+                                Proyectos
+                            </h1>
+
+                            {/* Para pantallas pequeñas y medianas */}
+                            <h1 className="bg-secondary text-white px-4 py-1 rounded w-75 text-center d-lg-none">
                                 Proyectos
                             </h1>
                         </div>
-                        <div className="mt-5 d-flex justify-content-center overflow-auto" style={{ maxHeight: '80vh', scrollbarColor: '#6c757d #292e33' }}>
+
+                        <div className="mt-5 d-flex justify-content-center overflow-auto" style={{ maxHeight: '70vh', scrollbarColor: '#6c757d #292e33' }}>
                             <div className="w-75">
-                                <div className="mb-5 border border-secondary d-flex flex-row">
-                                        <div className="col-auto d-flex align-items-center justify-content-center p-3" style={{ width: '188px' }}>
+                                <div className="mb-5 border border-secondary d-flex flex-column flex-lg-row">
+                                        {/* Para pantallas grandes */}
+                                        <div className="col-auto d-flex align-items-center justify-content-center p-3 d-none d-lg-flex" style={{ width: '188px' }}>
+                                            <Image src={dogs} width="140" height="120"/>
+                                        </div>
+                                        {/* Para pantallas pequeñas y medianas */}
+                                        <div className="d-flex align-items-center justify-content-center p-3 d-lg-none" style={{ height: '100%' }}>
                                             <Image src={dogs} width="140" height="120"/>
                                         </div>
                                         <div>
@@ -50,7 +70,7 @@ export default function Projects() {
                                                             <span className="bg-secondary rounded px-2 me-2 mb-2 small">Sequelize</span>
                                                             <span className="bg-secondary rounded px-2 me-2 mb-2 small">PostgreSQL</span>
                                                         </span>
-                                                        <span className="mb-4">
+                                                        <span className="mb-4 d-flex flex-column flex-lg-row align-items-start">
                                                             <Link className="pe-2 small text-white"
                                                                   to="#" 
                                                                   title="https://github.com/rubenevivancos/PI-Dogs-Henry_FrontEnd"
@@ -84,7 +104,7 @@ export default function Projects() {
                                                             <span className="bg-secondary rounded px-2 me-2 mb-2 small">Sequelize</span>
                                                             <span className="bg-secondary rounded px-2 me-2 mb-2 small">PostgreSQL</span>
                                                         </span>
-                                                        <span>
+                                                        <span className="d-flex flex-column flex-lg-row align-items-start">
                                                             <Link className="pe-2 small text-white"
                                                                   to="#" 
                                                                   title="https://github.com/rubenevivancos/PI_Dogs_2.0_FrontEnd"
@@ -112,10 +132,16 @@ export default function Projects() {
                                             </Card>
                                         </div>
                                 </div>
-                                <div className="mb-5 border border-secondary d-flex flex-row">
-                                        <div className="col-auto d-flex align-items-center justify-content-center p-3" style={{ width: '188px' }}>
+                                <div className="mb-5 border border-secondary d-flex flex-column flex-lg-row">
+                                        {/* Para pantallas grandes */}
+                                        <div className="col-auto d-flex align-items-center justify-content-center p-3 d-none d-lg-flex" style={{ width: '188px' }}>
                                             <Image src={bazarUniversal} width="100" height="120"/>
                                         </div>
+                                        {/* Para pantallas pequeñas y medianas */}
+                                        <div className="d-flex align-items-center justify-content-center p-3 d-lg-none" style={{ height: '100%' }}>
+                                            <Image src={bazarUniversal} width="100" height="120"/>
+                                        </div>
+
                                         <div>
                                             <Card className="bg-dark text-white border-0">
                                                 <Card.Body>
@@ -138,7 +164,7 @@ export default function Projects() {
                                                             <span className="bg-secondary rounded px-2 me-2 mb-2 small">Node</span>
                                                             <span className="bg-secondary rounded px-2 me-2 mb-2 small">Express</span>
                                                         </span>
-                                                        <span className="mb-4">
+                                                        <span className="mb-4 d-flex flex-column flex-lg-row align-items-start">
                                                             <Link className="pe-2 small text-white"
                                                                   to="#" 
                                                                   title="https://github.com/rubenevivancos/BazarUniversal2.0_FrontEnd"
@@ -177,7 +203,7 @@ export default function Projects() {
                                                             <span className="bg-secondary rounded px-2 me-2 mb-2 small">Sequelize</span>
                                                             <span className="bg-secondary rounded px-2 me-2 mb-2 small">PostgreSQL</span>
                                                         </span>
-                                                        <span className="mb-4">
+                                                        <span className="mb-4 d-flex flex-column flex-lg-row align-items-start">
                                                             <Link className="pe-2 small text-white"
                                                                   to="#" 
                                                                   title="https://github.com/rubenevivancos/BazarUniversal3.0_FrontEnd"
@@ -215,7 +241,7 @@ export default function Projects() {
                                                             <span className="bg-secondary rounded px-2 me-2 mb-2 small">Mongoose</span>
                                                             <span className="bg-secondary rounded px-2 me-2 mb-2 small">MongoDB</span>
                                                         </span>
-                                                        <span>
+                                                        <span className="d-flex flex-column flex-lg-row align-items-start">
                                                             <Link className="pe-2 small text-white"
                                                                   to="#" 
                                                                   title="https://github.com/rubenevivancos/BazarUniversal4.0_FrontEnd"
@@ -243,10 +269,16 @@ export default function Projects() {
                                             </Card>
                                         </div>
                                 </div>
-                                <div className="mb-5 border border-secondary d-flex flex-row">
-                                        <div className="col-auto d-flex align-items-center justify-content-center p-3" style={{ width: '188px' }}>
+                                <div className="mb-5 border border-secondary d-flex flex-column flex-lg-row">
+                                        {/* Para pantallas grandes */}
+                                        <div className="col-auto d-flex align-items-center justify-content-center p-3 d-none d-lg-flex" style={{ width: '188px' }}>
                                             <Image src={portafolio} width="140" height="50"/>
                                         </div>
+                                        {/* Para pantallas pequeñas y medianas */}
+                                        <div className="d-flex align-items-center justify-content-center p-3 d-lg-none" style={{ height: '100%' }}>
+                                            <Image src={portafolio} width="140" height="50"/>
+                                        </div>
+
                                         <div>
                                             <Card className="bg-dark text-white border-0">
                                                 <Card.Body>

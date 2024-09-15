@@ -1,5 +1,6 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import SideBarMenu from '../SideBarMenu/sideBarMenu';
+import HamburguerMenu from '../HamburguerMenu/hamburguerMenu';
 
 
 export default function Home() {
@@ -8,10 +9,15 @@ export default function Home() {
         <div className="bg-dark d-flex justify-content-center align-items-center" style={{ height: '100vh' }}>
             <Container>
                 <Row>
-                    <Col sm={3} className="d-flex align-items-center">
+                    <Col lg={3} className="d-flex align-items-center">
+                        {/* Sidebar para pantallas grandes */}
                         <SideBarMenu />
+
+                        {/* Menú de hamburguesa para pantallas pequeñas */}
+                        <HamburguerMenu />
                     </Col>
-                    <Col sm={9}>
+
+                    <Col lg={9}>
                         <div className="d-flex justify-content-center">
                             <div className="w-75 d-flex flex-column">
                                 <div className="d-flex justify-content-center">
