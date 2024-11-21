@@ -35,6 +35,19 @@ export default function Experience() {
                                 <Card className="mb-4 bg-dark text-white border-0">
                                     <Card.Body>
                                         <Card.Title className="d-flex flex-column flex-lg-row justify-content-lg-between align-items-start">
+                                            <span>THASKIFY</span>
+                                            <span className="text-end">nov. 2024 - actualidad</span>
+                                        </Card.Title>
+                                        <Card.Text className="d-flex flex-column flex-lg-row align-items-start">
+                                            <span className="me-4">Programador FullStack</span>
+                                            <span>España (Remoto)</span>
+                                        </Card.Text>
+                                    </Card.Body>
+                                    <div className="border-bottom border-2 border-success w-75"></div>
+                                </Card>
+                                <Card className="mb-4 bg-dark text-white border-0">
+                                    <Card.Body>
+                                        <Card.Title className="d-flex flex-column flex-lg-row justify-content-lg-between align-items-start">
                                             <span>PM SERVICES - NKE ASOCIADOS SAC</span>
                                             <span className="text-end">abr. 2015 - nov. 2018</span>
                                         </Card.Title>
