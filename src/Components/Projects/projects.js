@@ -42,99 +42,6 @@ export default function Projects() {
                                 <div className="mb-5 border border-secondary d-flex flex-column flex-lg-row">
                                         {/* Para pantallas grandes */}
                                         <div className="col-auto d-flex align-items-center justify-content-center p-3 d-none d-lg-flex" style={{ width: '188px' }}>
-                                            <Image src={dogs} width="140" height="120"/>
-                                        </div>
-                                        {/* Para pantallas pequeñas y medianas */}
-                                        <div className="d-flex align-items-center justify-content-center p-3 d-lg-none" style={{ height: '100%' }}>
-                                            <Image src={dogs} width="140" height="120"/>
-                                        </div>
-                                        <div>
-                                            <Card className="bg-dark text-white border-0">
-                                                <Card.Body>
-                                                    <Card.Title>
-                                                        <b>App de Razas Caninas</b>
-                                                    </Card.Title>
-                                                    <Card.Text className="d-flex flex-column">
-                                                        <span className="mb-4 small">
-                                                            Aplicación que consume datos de una API (The Dog API) a través de un
-                                                            Backend. Se pueden realizar: búsquedas, ordenamientos y filtros, ver detalle, realizar registro.
-                                                        </span>
-                                                        <span className="mb-2">
-                                                            <b>Versión 1:</b> <span className="small">Está hecha con Redux</span>
-                                                        </span>
-                                                        <span className="d-flex flex-wrap">
-                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">React</span>
-                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Redux</span>
-                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Node</span>
-                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Express</span>
-                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Sequelize</span>
-                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">PostgreSQL</span>
-                                                        </span>
-                                                        <span className="mb-4 d-flex flex-column flex-lg-row align-items-start">
-                                                            <Link className="pe-2 small text-white"
-                                                                  to="#" 
-                                                                  title="https://github.com/rubenevivancos/PI-Dogs-Henry_FrontEnd"
-                                                                  onClick={() => window.open("https://github.com/rubenevivancos/PI-Dogs-Henry_FrontEnd", "_blank")}
-                                                            >
-                                                                GitHub-Frontend
-                                                            </Link>
-                                                            <Link className="pe-2 small text-white"
-                                                                  to="#" 
-                                                                  title="https://github.com/rubenevivancos/PI-Dogs-Henry_BackEnd"
-                                                                  onClick={() => window.open("https://github.com/rubenevivancos/PI-Dogs-Henry_BackEnd", "_blank")}
-                                                            >
-                                                                GitHub-Backend
-                                                            </Link>
-                                                            <Link className="small text-white"
-                                                                  to="#" 
-                                                                  title="https://pi-dogs-henry-front-end.vercel.app"
-                                                                  onClick={() => window.open("https://pi-dogs-henry-front-end.vercel.app", "_blank")}
-                                                            >
-                                                                Deploy
-                                                            </Link>
-                                                        </span>
-                                                        <span className="mb-2">
-                                                            <b>Versión 2:</b> <span className="small">Está hecha con Redux-Toolkit</span>
-                                                        </span>
-                                                        <span className="d-flex flex-wrap">
-                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">React</span>
-                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Redux-Toolkit</span>
-                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Node</span>
-                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Express</span>
-                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Sequelize</span>
-                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">PostgreSQL</span>
-                                                        </span>
-                                                        <span className="d-flex flex-column flex-lg-row align-items-start">
-                                                            <Link className="pe-2 small text-white"
-                                                                  to="#" 
-                                                                  title="https://github.com/rubenevivancos/PI_Dogs_2.0_FrontEnd"
-                                                                  onClick={() => window.open("https://github.com/rubenevivancos/PI_Dogs_2.0_FrontEnd", "_blank")}
-                                                            >
-                                                                GitHub-Frontend
-                                                            </Link>
-                                                            <Link className="pe-2 small text-white"
-                                                                  to="#" 
-                                                                  title="https://github.com/rubenevivancos/PI_Dogs_2.0_BackEnd"
-                                                                  onClick={() => window.open("https://github.com/rubenevivancos/PI_Dogs_2.0_BackEnd", "_blank")}
-                                                            >
-                                                                GitHub-Backend
-                                                            </Link>
-                                                            <Link className="small text-white"
-                                                                  to="#" 
-                                                                  title="https://pi-dogs-2-0-front-end.vercel.app"
-                                                                  onClick={() => window.open("https://pi-dogs-2-0-front-end.vercel.app", "_blank")}
-                                                            >
-                                                                Deploy
-                                                            </Link>
-                                                        </span>
-                                                    </Card.Text>
-                                                </Card.Body>
-                                            </Card>
-                                        </div>
-                                </div>
-                                <div className="mb-5 border border-secondary d-flex flex-column flex-lg-row">
-                                        {/* Para pantallas grandes */}
-                                        <div className="col-auto d-flex align-items-center justify-content-center p-3 d-none d-lg-flex" style={{ width: '188px' }}>
                                             <Image src={bazarUniversal} width="100" height="120"/>
                                         </div>
                                         {/* Para pantallas pequeñas y medianas */}
@@ -269,6 +176,101 @@ export default function Projects() {
                                             </Card>
                                         </div>
                                 </div>
+
+                                <div className="mb-5 border border-secondary d-flex flex-column flex-lg-row">
+                                        {/* Para pantallas grandes */}
+                                        <div className="col-auto d-flex align-items-center justify-content-center p-3 d-none d-lg-flex" style={{ width: '188px' }}>
+                                            <Image src={dogs} width="140" height="120"/>
+                                        </div>
+                                        {/* Para pantallas pequeñas y medianas */}
+                                        <div className="d-flex align-items-center justify-content-center p-3 d-lg-none" style={{ height: '100%' }}>
+                                            <Image src={dogs} width="140" height="120"/>
+                                        </div>
+                                        <div>
+                                            <Card className="bg-dark text-white border-0">
+                                                <Card.Body>
+                                                    <Card.Title>
+                                                        <b>App de Razas Caninas</b>
+                                                    </Card.Title>
+                                                    <Card.Text className="d-flex flex-column">
+                                                        <span className="mb-4 small">
+                                                            Aplicación que consume datos de una API (The Dog API) a través de un
+                                                            Backend. Se pueden realizar: búsquedas, ordenamientos y filtros, ver detalle, realizar registro.
+                                                        </span>
+                                                        <span className="mb-2">
+                                                            <b>Versión 1:</b> <span className="small">Está hecha con Redux</span>
+                                                        </span>
+                                                        <span className="d-flex flex-wrap">
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">React</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Redux</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Node</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Express</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Sequelize</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">PostgreSQL</span>
+                                                        </span>
+                                                        <span className="mb-4 d-flex flex-column flex-lg-row align-items-start">
+                                                            <Link className="pe-2 small text-white"
+                                                                  to="#" 
+                                                                  title="https://github.com/rubenevivancos/PI-Dogs-Henry_FrontEnd"
+                                                                  onClick={() => window.open("https://github.com/rubenevivancos/PI-Dogs-Henry_FrontEnd", "_blank")}
+                                                            >
+                                                                GitHub-Frontend
+                                                            </Link>
+                                                            <Link className="pe-2 small text-white"
+                                                                  to="#" 
+                                                                  title="https://github.com/rubenevivancos/PI-Dogs-Henry_BackEnd"
+                                                                  onClick={() => window.open("https://github.com/rubenevivancos/PI-Dogs-Henry_BackEnd", "_blank")}
+                                                            >
+                                                                GitHub-Backend
+                                                            </Link>
+                                                            <Link className="small text-white"
+                                                                  to="#" 
+                                                                  title="https://pi-dogs-henry-front-end.vercel.app"
+                                                                  onClick={() => window.open("https://pi-dogs-henry-front-end.vercel.app", "_blank")}
+                                                            >
+                                                                Deploy
+                                                            </Link>
+                                                        </span>
+                                                        <span className="mb-2">
+                                                            <b>Versión 2:</b> <span className="small">Está hecha con Redux-Toolkit</span>
+                                                        </span>
+                                                        <span className="d-flex flex-wrap">
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">React</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Redux-Toolkit</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Node</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Express</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Sequelize</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">PostgreSQL</span>
+                                                        </span>
+                                                        <span className="d-flex flex-column flex-lg-row align-items-start">
+                                                            <Link className="pe-2 small text-white"
+                                                                  to="#" 
+                                                                  title="https://github.com/rubenevivancos/PI_Dogs_2.0_FrontEnd"
+                                                                  onClick={() => window.open("https://github.com/rubenevivancos/PI_Dogs_2.0_FrontEnd", "_blank")}
+                                                            >
+                                                                GitHub-Frontend
+                                                            </Link>
+                                                            <Link className="pe-2 small text-white"
+                                                                  to="#" 
+                                                                  title="https://github.com/rubenevivancos/PI_Dogs_2.0_BackEnd"
+                                                                  onClick={() => window.open("https://github.com/rubenevivancos/PI_Dogs_2.0_BackEnd", "_blank")}
+                                                            >
+                                                                GitHub-Backend
+                                                            </Link>
+                                                            <Link className="small text-white"
+                                                                  to="#" 
+                                                                  title="https://pi-dogs-2-0-front-end.vercel.app"
+                                                                  onClick={() => window.open("https://pi-dogs-2-0-front-end.vercel.app", "_blank")}
+                                                            >
+                                                                Deploy
+                                                            </Link>
+                                                        </span>
+                                                    </Card.Text>
+                                                </Card.Body>
+                                            </Card>
+                                        </div>
+                                </div>
+
                                 <div className="mb-5 border border-secondary d-flex flex-column flex-lg-row">
                                         {/* Para pantallas grandes */}
                                         <div className="col-auto d-flex align-items-center justify-content-center p-3 d-none d-lg-flex" style={{ width: '188px' }}>
