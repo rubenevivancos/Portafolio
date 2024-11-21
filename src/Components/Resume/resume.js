@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 import SideBarMenu from '../SideBarMenu/sideBarMenu';
 import HamburguerMenu from '../HamburguerMenu/hamburguerMenu';
-import curriculumPDF from '../../Documents/rubenVivancoCV.pdf';
+import curriculumPDF from '../../Documents/cvRubenVivanco.pdf';
 
 
 export default function Resume() {
