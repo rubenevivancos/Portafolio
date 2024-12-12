@@ -36,7 +36,7 @@ export default function Experience() {
                                     <Card.Body>
                                         <Card.Title className="d-flex flex-column flex-lg-row justify-content-lg-between align-items-start">
                                             <span>THASKIFY</span>
-                                            <span className="text-end">nov. 2024 - actualidad</span>
+                                            <span className="text-end">nov. 2024 - dic. 2024</span>
                                         </Card.Title>
                                         <Card.Text className="d-flex flex-column flex-lg-row align-items-start">
                                             <span className="me-4">Programador FullStack</span>
