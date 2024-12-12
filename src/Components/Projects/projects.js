@@ -238,22 +238,15 @@ export default function Projects() {
                                                         <span className="d-flex flex-column flex-lg-row align-items-start">
                                                             <Link className="pe-2 small text-white"
                                                                   to="#" 
-                                                                  title="https://github.com/rubenevivancos/PI_Dogs_2.0_FrontEnd"
-                                                                  onClick={() => window.open("https://github.com/rubenevivancos/PI_Dogs_2.0_FrontEnd", "_blank")}
+                                                                  title="https://github.com/rubenevivancos/PI_Dogs_2.0/tree/production"
+                                                                  onClick={() => window.open("https://github.com/rubenevivancos/PI_Dogs_2.0/tree/production", "_blank")}
                                                             >
-                                                                GitHub-Frontend
-                                                            </Link>
-                                                            <Link className="pe-2 small text-white"
-                                                                  to="#" 
-                                                                  title="https://github.com/rubenevivancos/PI_Dogs_2.0_BackEnd"
-                                                                  onClick={() => window.open("https://github.com/rubenevivancos/PI_Dogs_2.0_BackEnd", "_blank")}
-                                                            >
-                                                                GitHub-Backend
+                                                                GitHub
                                                             </Link>
                                                             <Link className="small text-white"
                                                                   to="#" 
-                                                                  title="https://pi-dogs-2-0-front-end.vercel.app"
-                                                                  onClick={() => window.open("https://pi-dogs-2-0-front-end.vercel.app", "_blank")}
+                                                                  title="https://pidogs2-0.vercel.app"
+                                                                  onClick={() => window.open("https://pidogs2-0.vercel.app", "_blank")}
                                                             >
                                                                 Deploy
                                                             </Link>
