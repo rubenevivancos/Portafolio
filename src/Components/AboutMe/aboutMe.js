@@ -55,10 +55,12 @@ export default function AboutMe() {
 
             <div className="d-flex flex-column justify-content-center text-white px-5 py-5 text-justify">
               <p className="w-100 w-md-75 mb-5">
-                Mi nombre es <span className="bg-primary rounded px-2">Rubén Vivanco Salazar</span>, soy un Desarrollador Full Stack con sede en Lima-Perú.
-                Tengo más de 5 años de experiencia como desarrollador, principalmente con las tecnologías Java y Oracle.
-                Adquirí nuevos conocimientos en el <span className="bg-primary rounded px-2">bootcamp SoyHenry</span> y ahora quiero empezar una nueva etapa, nuevos retos con éstas 
-                nuevas tecnologías trabajando en <span className="bg-primary rounded px-2">forma remota</span>.
+              Hola, soy Rubén Vivanco, un <span className="bg-primary rounded px-2">desarrollador web full-stack</span> con una sólida base en 
+              tecnologías modernas como Node.js, React, Express, Mongoose y Sequelize.
+              Durante mi carrera, he trabajado en varios proyectos utilizando tanto bases de datos SQL como NoSQL.<br></br>Mi enfoque está en crear aplicaciones 
+              escalables, bien estructuradas y de alto rendimiento, siguiendo principios sólidos de programación como SOLID.<br></br>
+              Disfruto enfrentándome a desafíos técnicos, ya sea resolviendo bugs complejos o mejorando la arquitectura de un sistema para hacerlo 
+              más eficiente.
               </p>
               <div className="d-flex flex-column flex-lg-row justify-content-center align-items-center mt-5 flex-wrap">
                 <Link onClick={descargarCurriculum} className="text-decoration-none text-white me-lg-4 mb-2 mb-lg-0">

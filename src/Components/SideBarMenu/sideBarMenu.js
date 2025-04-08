@@ -63,20 +63,6 @@ function SidebarMenu() {
         >
           Proyectos
         </Button>
-        <Button
-          variant={selectedItem === 'resume' ? "warning text-white" : "outline-secondary"}
-          size="sm"
-          onClick={() => handleItemClick('resume')}
-        >
-          Curriculum
-        </Button>
-        <Button
-          variant={selectedItem === 'contact' ? "info text-white" : "outline-secondary"}
-          size="sm"
-          onClick={() => handleItemClick('contact')}
-        >
-          Contacto
-        </Button>
       </Container>
     </Col>
   );
