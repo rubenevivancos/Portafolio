@@ -6,6 +6,8 @@ import HamburguerMenu from '../HamburguerMenu/hamburguerMenu';
 import portafolio from '../../Images/portafolio.png';
 import libreMercado from '../../Images/libreMercado.png';
 import dogs from '../../Images/dogs.png';
+import emedicine from '../../Images/emedicine.png';
+import booked from '../../Images/booked.png';
 
 
 export default function Projects() {
@@ -57,12 +59,12 @@ export default function Projects() {
                                                     </Card.Title>
                                                     <Card.Text className="d-flex flex-column">
                                                         <span className="mb-4 small">
-                                                            Este proyecto es un clon funcional de la plataforma de comercio electrónico MercadoLibre creado 
-                                                            con el stack PERN, entre las características implementadas se incluyen: creación de cuenta e 
+                                                            Este proyecto es un clon funcional de la plataforma de comercio electrónico MercadoLibre creado utilizando
+                                                            el stack PERN, entre las características implementadas se incluyen: creación de cuenta e 
                                                             inicio de sesión, búsqueda y navegación de productos, selección de método de entrega, pago con 
                                                             Stripe y cierre de sesión.<br></br>
                                                             Este proyecto es la primera versión y sigue en constante mejora. A futuro, planeo agregar más 
-                                                            funcionalidades como: Mis compras, favoritos, etc.                                                            
+                                                            funcionalidades y mejoras como: validaciones, mis compras, favoritos, etc.
                                                         </span>
                                                         <span className="small">
                                                             Frontend
@@ -123,6 +125,150 @@ export default function Projects() {
                                                             </Link>
                                                         </span>
 
+                                                    </Card.Text>
+                                                </Card.Body>
+                                            </Card>
+                                        </div>
+                                </div>
+
+                                <div className="mb-5 border border-secondary d-flex flex-column flex-lg-row">
+                                        {/* Para pantallas grandes */}
+                                        <div className="col-auto d-flex align-items-center justify-content-center p-3 d-none d-lg-flex" style={{ width: '188px' }}>
+                                            <Image src={emedicine} width="140" height="120"/>
+                                        </div>
+                                        {/* Para pantallas pequeñas y medianas */}
+                                        <div className="d-flex align-items-center justify-content-center p-3 d-lg-none" style={{ height: '100%' }}>
+                                            <Image src={emedicine} width="140" height="120"/>
+                                        </div>
+                                        <div>
+                                            <Card className="bg-dark text-white border-0">
+                                                <Card.Body>
+                                                    <Card.Title>
+                                                        <b>E-Medicine - Plataforma para Gestión de Citas Virtuales</b>
+                                                    </Card.Title>
+                                                    <Card.Text className="d-flex flex-column">
+                                                        <span className="mb-4 small">
+                                                            ( Realizado como parte de un proyecto en NoCountry ) <br></br>
+                                                            Este proyecto consiste en una plataforma de telemedicina que permite la interacción entre médicos y 
+                                                            pacientes de manera remota y eficiente, entre las características implementadas se incluyen: registro de 
+                                                            médicos estableciendo su disponibilidad horaria, registro de pacientes, citas virtuales, gestión de citas, realizar pagos con la 
+                                                            plataforma Stripe.<br></br>El proyecto no está desplegado en producción en este momento, pero está disponible en GitHub.
+                                                        </span>
+                                                        <span className="small">
+                                                            Frontend
+                                                        </span>
+                                                        <span className="d-flex flex-wrap">
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">React</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Tailwind</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Next</span>
+                                                        </span>
+                                                        <span className="small">
+                                                            Backend
+                                                        </span>
+                                                        <span className="d-flex flex-wrap">
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Node</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Express</span>
+                                                        </span>
+                                                        <span className="small">
+                                                            Base de datos
+                                                        </span>
+                                                        <span className="d-flex flex-wrap">
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Mongoose</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">MongoDB</span>
+                                                        </span>
+                                                        <span className="small">
+                                                            Pagos
+                                                        </span>
+                                                        <span className="d-flex flex-wrap">
+                                                            <span className="bg-secondary rounded px-2 mb-2 small">Stripe</span>
+                                                        </span>
+                                                        <span className="small">
+                                                            Metodología de trabajo
+                                                        </span>
+                                                        <span className="d-flex flex-wrap mb-4">
+                                                            <span className="bg-secondary rounded px-2 mb-2 small">Scrum</span>
+                                                        </span>
+                                                        <span className="mb-4 d-flex flex-column flex-lg-row align-items-start">
+                                                            <Link className="pe-2 small text-white"
+                                                                  to="#" 
+                                                                  title="https://github.com/No-Country-simulation/c19-68-t-node-react"
+                                                                  onClick={() => window.open("https://github.com/No-Country-simulation/c19-68-t-node-react", "_blank")}
+                                                            >
+                                                                GitHub
+                                                            </Link>
+                                                        </span>
+                                                    </Card.Text>
+                                                </Card.Body>
+                                            </Card>
+                                        </div>
+                                </div>
+
+                                <div className="mb-5 border border-secondary d-flex flex-column flex-lg-row">
+                                        {/* Para pantallas grandes */}
+                                        <div className="col-auto d-flex align-items-center justify-content-center p-3 d-none d-lg-flex" style={{ width: '188px' }}>
+                                            <Image src={booked} width="140" height="120"/>
+                                        </div>
+                                        {/* Para pantallas pequeñas y medianas */}
+                                        <div className="d-flex align-items-center justify-content-center p-3 d-lg-none" style={{ height: '100%' }}>
+                                            <Image src={booked} width="140" height="120"/>
+                                        </div>
+                                        <div>
+                                            <Card className="bg-dark text-white border-0">
+                                                <Card.Body>
+                                                    <Card.Title>
+                                                        <b>Booked - Plataforma de Alquiler de Alojamiento</b>
+                                                    </Card.Title>
+                                                    <Card.Text className="d-flex flex-column">
+                                                        <span className="mb-4 small">
+                                                            ( Realizado como parte de un proyecto en NoCountry ) <br></br>
+                                                            Este proyecto permitir la interacción entre anfitriones y huéspedes de manera eficiente, entre las 
+                                                            características implementadas se incluyen: registro de 
+                                                            anfitriones y huéspedes, publicación de propiedades, búsqueda y filtrado de alojamientos, 
+                                                            reserva de alojamientos disponibles, realizar pagos con la 
+                                                            plataforma Stripe.<br></br>El proyecto no está desplegado en producción en este momento, pero está disponible en GitHub.
+                                                        </span>
+                                                        <span className="small">
+                                                            Frontend
+                                                        </span>
+                                                        <span className="d-flex flex-wrap">
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">React</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Tailwind</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Next</span>
+                                                        </span>
+                                                        <span className="small">
+                                                            Backend
+                                                        </span>
+                                                        <span className="d-flex flex-wrap">
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">NestJS</span>
+                                                        </span>
+                                                        <span className="small">
+                                                            Base de datos
+                                                        </span>
+                                                        <span className="d-flex flex-wrap">
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">Mongoose</span>
+                                                            <span className="bg-secondary rounded px-2 me-2 mb-2 small">MongoDB</span>
+                                                        </span>
+                                                        <span className="small">
+                                                            Pagos
+                                                        </span>
+                                                        <span className="d-flex flex-wrap">
+                                                            <span className="bg-secondary rounded px-2 mb-2 small">Stripe</span>
+                                                        </span>
+                                                        <span className="small">
+                                                            Metodología de trabajo
+                                                        </span>
+                                                        <span className="d-flex flex-wrap mb-4">
+                                                            <span className="bg-secondary rounded px-2 mb-2 small">Scrum</span>
+                                                        </span>
+                                                        <span className="mb-4 d-flex flex-column flex-lg-row align-items-start">
+                                                            <Link className="pe-2 small text-white"
+                                                                  to="#" 
+                                                                  title="https://github.com/No-Country-simulation/s18-24-t-node-react"
+                                                                  onClick={() => window.open("https://github.com/No-Country-simulation/s18-24-t-node-react", "_blank")}
+                                                            >
+                                                                GitHub
+                                                            </Link>
+                                                        </span>
                                                     </Card.Text>
                                                 </Card.Body>
                                             </Card>
