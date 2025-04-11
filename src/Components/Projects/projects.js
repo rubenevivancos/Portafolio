@@ -1,4 +1,5 @@
-import { Container, Row, Col, Image, Card } from 'react-bootstrap';
+import React, { useState } from 'react';
+import { Container, Row, Col, Image, Card, Modal } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 import SideBarMenu from '../SideBarMenu/sideBarMenu';
@@ -12,7 +13,13 @@ import booked from '../../Images/booked.png';
 
 export default function Projects() {
 
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+
     return(
+        <>
         <div className="bg-dark d-flex justify-content-center align-items-center min-vh-100">
         {/* Otra opcion usando Inline Style Condicional */}
         {/* <div className="bg-dark d-flex justify-content-center align-items-center" style={{ height: isSmallScreen ? 'auto' : '100vh' }}> */}
@@ -118,8 +125,8 @@ export default function Projects() {
                                                             </Link>
                                                             <Link className="small text-white"
                                                                   to="#" 
-                                                                  title="https://libre-mercado-stack-pern.vercel.app"
-                                                                  onClick={() => window.open("https://libre-mercado-stack-pern.vercel.app", "_blank")}
+                                                                  title="Video demostrativo"
+                                                                  onClick={handleShow}
                                                             >
                                                                 Video demostrativo
                                                             </Link>
@@ -401,5 +408,18 @@ export default function Projects() {
                 </Row>
             </Container>
         </div>
+
+        <Modal show={show} onHide={handleClose} size="lg" centered>
+            <Modal.Header closeButton>
+                <Modal.Title>Video Demostrativo</Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+                <video width="100%" controls>
+                    <source src="/videos/videoDemostrativoLibreMercado.mp4" type="video/mp4" />
+                    Tu navegador no soporta la reproducción de video.
+                </video>
+            </Modal.Body>
+        </Modal>
+        </>
     )
 }
