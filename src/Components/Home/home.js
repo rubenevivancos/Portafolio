@@ -1,6 +1,7 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import SideBarMenu from '../SideBarMenu/sideBarMenu';
 import HamburguerMenu from '../HamburguerMenu/hamburguerMenu';
+import portafolioGIF from '../../Images/portafolioGIF.gif';
 
 
 export default function Home() {
@@ -14,6 +15,32 @@ export default function Home() {
                         <SideBarMenu />
 
                         {/* Menú de hamburguesa para pantallas pequeñas */}
+                        <HamburguerMenu />
+                    </Col>
+
+                    <Col lg={9}>
+                        <div className="d-flex justify-content-center">
+                            <img src={portafolioGIF} alt="GIF portafolio" className="img-fluid w-100 w-md-75 w-lg-50 mx-auto d-block"/>
+                        </div>
+                    </Col>
+                </Row>
+            </Container>
+        </div>
+    )
+}
+
+/*
+export default function Home() {
+
+    return(
+        <div className="bg-dark d-flex justify-content-center align-items-center" style={{ height: '100vh' }}>
+            <Container>
+                <Row>
+                    <Col lg={3} className="d-flex align-items-center">
+                        {/* Sidebar para pantallas grandes }
+                        <SideBarMenu />
+
+                        {/* Menú de hamburguesa para pantallas pequeñas }
                         <HamburguerMenu />
                     </Col>
 
@@ -39,3 +66,4 @@ export default function Home() {
         </div>
     )
 }
+*/
