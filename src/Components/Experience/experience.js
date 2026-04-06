@@ -32,6 +32,21 @@ export default function Experience() {
                         
                         <div className="d-flex justify-content-center text-white px-5 py-5 text-justify">
                             <div className="w-100 w-md-75">
+
+                                <Card className="mb-4 bg-dark text-white border-0">
+                                    <Card.Body>
+                                        <Card.Title className="d-flex flex-column flex-lg-row justify-content-lg-between align-items-start">
+                                            <span>SOFTWARE FACTORY AI</span>
+                                            <span className="text-end">ago. 2025 - dic. 2025</span>
+                                        </Card.Title>
+                                        <Card.Text className="d-flex flex-column flex-lg-row align-items-start">
+                                            <span className="me-4">Programador FullStack</span>
+                                            <span>Argentina (Remoto)</span>
+                                        </Card.Text>
+                                    </Card.Body>
+                                    <div className="border-bottom border-2 border-success w-75"></div>
+                                </Card>
+
                                 <Card className="mb-4 bg-dark text-white border-0">
                                     <Card.Body>
                                         <Card.Title className="d-flex flex-column flex-lg-row justify-content-lg-between align-items-start">
